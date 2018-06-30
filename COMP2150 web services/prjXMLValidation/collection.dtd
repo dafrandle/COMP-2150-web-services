@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+collection.dtd
+Dustin Frandle - dafrandle@yahoo.com
+Project: XML Validation
+Written - 1/31/2017
+-->
+<!ELEMENT Games (Platform+)>
+<!ELEMENT Platform (Titles)>
+  <!ATTLIST Platform PlatformName CDATA #REQUIRED>
+  <!ATTLIST Platform Dev CDATA #IMPLIED>
+<!ELEMENT Titles (Title*)>
+<!ELEMENT Title (Genre?)>
+  <!ATTLIST Title GameName CDATA #REQUIRED>
+<!ELEMENT Genre (#PCDATA)>

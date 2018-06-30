@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+collection.xsd
+Dustin Frandle - dafrandle@yahoo.com
+Project: XML Validation
+Written - 1/31/2017
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        targetNamespace ="GameList"
+        xmlns:tns="GameList"
+        elementFormDefault="qualified">
+
+  <xs:group name="Title">
+    <xs:sequence>
+      <xs:element name="Genre" type="xs:string" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:group>
+
+  <xs:complexType name="Title">
+    <xs:group ref="tns:Title"/>
+    <xs:attribute name="GameName" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:element name="Games">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Platform" minOccurs="1" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Titles" minOccurs="1" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Title" type="tns:Title" minOccurs="0" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="PlatformName" type="xs:string" use="required"/>
+            <xs:attribute name="Dev" type="xs:string" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

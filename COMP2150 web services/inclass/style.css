@@ -1,0 +1,43 @@
+﻿catalog{
+    background-color: #ffffff;
+}
+
+cd{
+    border: thin dotted;
+    display: block;
+    min-width: 340px;
+    width: 25%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 40px;
+    margin-top: 10px;
+}
+
+title{
+    display: inline-block;
+    width: 28%;
+    margin-left: 20%;
+}
+
+artist{
+    display: inline-block;
+    width: 28%;
+    margin-right: 20%;
+}
+
+country{
+    display: inline-block;
+    width: 28%;
+    margin-left: 20%;
+}
+
+company{
+    display: inline-block;
+    width: 28%;
+    margin-right: 20%;
+}
+
+price{
+    display: block;
+}
+

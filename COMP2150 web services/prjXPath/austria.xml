@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<country id="f0_149" name="Austria" capital="f0_1467" population="8023244" datacode="AU" total_area="83850" population_growth="0.41" infant_mortality="6.2" gdp_agri="2" gdp_total="152000" inflation="2.3" indep_date="12 11 1918" government="federal republic" gdp_ind="34" gdp_serv="64" car_code="A">
+  <name>Austria</name>
+  <province id="f0_17440" name="Burgenland" country="f0_149" capital="f0_2291" population="273000" area="3965">
+    <city id="f0_2291" country="f0_149" province="f0_17440" longitude="16" latitude="48">
+      <name>Eisenstadt</name>
+      <population year="87">10102</population>
+    </city>
+  </province>
+  <province id="f0_17443" name="Carinthia" country="f0_149" capital="f0_2296" population="559000" area="9533">
+    <city id="f0_2296" country="f0_149" province="f0_17443" longitude="14.21" latitude="46.38">
+      <name>Klagenfurt</name>
+      <population year="87">87321</population>
+    </city>
+  </province>
+  <province id="f0_17445" name="Vorarlberg" country="f0_149" capital="f0_2301" population="341000" area="2601">
+    <city id="f0_2301" country="f0_149" province="f0_17445" longitude="9.45" latitude="47.3">
+      <name>Bregenz</name>
+    </city>
+  </province>
+  <province id="f0_17447" name="Vienna" country="f0_149" capital="f0_1467" population="1583000" area="415">
+    <city id="f0_1467" country="f0_149" province="f0_17447" longitude="16.3667" latitude="48.25">
+      <name>Vienna</name>
+      <population year="94">1583000</population>
+    </city>
+  </province>
+  <province id="f0_17448" name="Upper Austria" country="f0_149" capital="f0_2267" population="1373000" area="11979">
+    <city id="f0_2267" country="f0_149" province="f0_17448" longitude="14.18" latitude="48.18">
+      <name>Linz</name>
+      <population year="94">203000</population>
+    </city>
+  </province>
+  <province id="f0_17450" name="Tyrol" country="f0_149" capital="f0_2273" population="649000" area="12647">
+    <city id="f0_2273" country="f0_149" province="f0_17450" longitude="11.22" latitude="47.17">
+      <name>Innsbruck</name>
+      <population year="94">118000</population>
+    </city>
+  </province>
+  <province id="f0_17452" name="Styria" country="f0_149" capital="f0_2279" population="1203000" area="16386">
+    <city id="f0_2279" country="f0_149" province="f0_17452" longitude="15.26" latitude="47.4">
+      <name>Graz</name>
+      <population year="94">238000</population>
+    </city>
+  </province>
+  <province id="f0_17454" name="Salzburg" country="f0_149" capital="f0_2285" population="501000" area="7154">
+    <city id="f0_2285" country="f0_149" province="f0_17454" longitude="13.2" latitude="47.49">
+      <name>Salzburg</name>
+      <population year="94">144000</population>
+    </city>
+  </province>
+  <province id="f0_17455" name="Lower Austria" country="f0_149" capital="f0_2306" population="1507000" area="19170">
+    <city id="f0_2306" country="f0_149" province="f0_17455" longitude="15.38" latitude="48.13">
+      <name>St. Polten</name>
+      <population year="87">51102</population>
+    </city>
+  </province>
+  <ethnicgroups percentage="99.4">German</ethnicgroups>
+  <ethnicgroups percentage="0.2">Slovene</ethnicgroups>
+  <ethnicgroups percentage="0.3">Croatian</ethnicgroups>
+  <religions percentage="85">Roman Catholic</religions>
+  <religions percentage="6">Protestant</religions>
+  <languages percentage="100">German</languages>
+  <encompassed continent="f0_119" percentage="100"/>
+  <border length="362" country="f0_184"/>
+  <border length="784" country="f0_220"/>
+  <border length="366" country="f0_251"/>
+  <border length="430" country="f0_268"/>
+  <border length="37" country="f0_285"/>
+  <border length="91" country="f0_375"/>
+  <border length="324" country="f0_380"/>
+  <border length="164" country="f0_404"/>
+</country>

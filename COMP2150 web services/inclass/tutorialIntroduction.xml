@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- List of Best-Selling Digital Singles
+ Reference: Wikipedia http://en.wikipedia.org/wiki/List_of_best-selling_singles#Best-selling_digital_singles
+-->
+<songs>
+  <song releaseDate="2015">
+    <artist>Wiz Khalifa &amp; Charlie Puth</artist>
+    <title>See You Again</title>
+    <sales>20.9</sales>
+    <summary>
+      <![CDATA[
+      Commissioned for the soundtrack of the 2015 action film Furious 7 as a tribute to the late Paul Walker, who died in a single-vehicle accident on November 30, 2013 in Valencia, California.
+      ]]>
+    </summary>
+  </song>
+  <song releaseDate="2014">
+    <artist>Mark Ronson &amp; Bruno Mars</artist>
+    <title>Uptown Funk</title>
+    <sales>20</sales>
+    <summary>
+      <![CDATA[
+      "Uptown Funk" spent 14 consecutive weeks at number one on the Billboard Hot 100 in the US
+      ]]>
+    </summary>
+  </song>
+  <song releaseDate="2014">
+    <artist>Ed Sheeran</artist>
+    <title>Thinking Out Loud</title>
+    <sales>19.5</sales>
+    <summary>
+      <![CDATA[
+      In June 2015, "Thinking Out Loud" became the first single to spend a full year in the UK top 40. In September 2015, it also became the seventh single to have achieved triple platinum in the UK during the 21st century.
+      ]]>
+    </summary>
+  </song>
+  <song releaseDate="2011">
+    <artist>Carly Rae Jepsen</artist>
+    <title>Call Me Maybe</title>
+    <sales>18</sales>
+    <summary>
+      <![CDATA[
+      In the United States, the track reached number one on the Billboard Hot 100 and the Mainstream Top 40 chart.[1] The song is the first number one by a Canadian female artist on the Billboard Hot 100 chart since 2007's "Girlfriend" by Avril Lavigne.
+      ]]>
+    </summary>
+  </song>
+  <song releaseDate="2009">
+    <artist>The Black Eyed Peas</artist>
+    <title>I Gotta Feeling</title>
+    <sales>15</sales>
+    <summary>
+      <![CDATA[
+      The song was nominated for Record of the Year at the 52nd Grammy Awards and won the Grammy for Best Pop Performance by a Duo or Group with Vocals.
+      ]]>
+    </summary>
+  </song>
+  <song releaseDate="2009">
+    <artist>Kesha</artist>
+    <title>TiK ToK</title>
+    <sales>15</sales>
+    <summary>
+      <![CDATA[
+      According to Kesha, the song's lyrics are representative of her and based on her life; the song has a carefree message and talks about not letting anything bring you down.
+      ]]>
+    </summary>
+  </song>
+  <song releaseDate="2013">
+    <artist>Robin Thicke &amp; T.I. and Pharrell</artist>
+    <title>Blurred Lines</title>
+    <sales>14.8</sales>
+    <summary>
+      <![CDATA[
+      "Blurred Lines" peaked at number one in at least 25 countries and becoming the number one song of 2013 in several of them. It became Thicke's first, T.I.'s fourth, and Pharrell's third number-one single in the US, where it was also the longest running number one single of 2013.
+      ]]>
+    </summary>
+  </song>
+  <song releaseDate="2011">
+    <artist>Maroon 5 &amp; Christina Aguilera</artist>
+    <title>Moves like Jagger</title>
+    <sales>14.4</sales>
+    <summary>
+      <![CDATA[
+       "Moves Like Jagger" was nominated for a Grammy Award for Best Pop Duo/Group Performance at the 54th Grammy Awards but lost to "Body and Soul" by Tony Bennett and Amy Winehouse.
+      ]]>
+    </summary>
+  </song>
+  <song releaseDate="2010">
+    <artist>Adele</artist>
+    <title>Rolling in the Deep</title>
+    <sales></sales>
+    <summary>
+      <![CDATA[
+      ]]>
+    </summary>
+  </song>
+  <song releaseDate="">
+    <artist></artist>
+    <title></title>
+    <sales></sales>
+    <summary>
+      <![CDATA[
+      ]]>
+    </summary>
+  </song>
+</songs>

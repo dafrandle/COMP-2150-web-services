@@ -1,0 +1,14 @@
+  <!ELEMENT contact (name)>
+  <!ELEMENT name (first, middle, last, phone+, location, about)>
+  <!ELEMENT first (#PCDATA)>
+  <!ELEMENT middle (#PCDATA)>
+  <!ELEMENT last (#PCDATA)>
+  <!ELEMENT phone (#PCDATA)>
+    <!ATTLIST phone kind CDATA #REQUIRED >
+  
+  <!ELEMENT location (address | gps)>
+  <!ELEMENT about (#PCDATA | dob)*>
+  
+  <!ELEMENT address (#PCDATA)>
+  <!ELEMENT gps (#PCDATA)>
+  <!ELEMENT dob (#PCDATA)>

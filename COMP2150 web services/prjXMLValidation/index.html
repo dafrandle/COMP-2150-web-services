@@ -1,0 +1,65 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+   <!--**************************** HEAD ********************************-->
+   <head>
+      <title></title>
+      <meta charset="utf-8" />
+      <!--****************************** Author *******************************
+         index.html
+         Dustin Frandle - dafrandle@yahoo.com
+         Project: XML Validation
+         Written - 2/9/2017
+         -->
+      <link rel="stylesheet" type="text/css" href="index.css" />
+      <!-- css code link -->
+   </head>
+   <!-- *************************** BODY ********************************-->
+   <body>
+      <div id="summary">
+         <h1>Executive Summary</h1>
+         <p>
+            &emsp;XML is designed to store and transport data. However, XML does nothing. XML just uses tags to categorize data that is contained inside them.
+            Because of that it should be quite self-descriptive. Because of the use of tags most applications using XML will work as expected even if tags or data is added or removed.
+            XML is useful for designing data storage for business programs to use. (not databases those are for humans) It also allows you to design properties that programs can use and edit.
+            Overall it allows businesses to store information for it's systems in a self described, standardized, easier to read format.
+         </p>
+      </div>
+      <hr>
+      <div id="parser">
+         <h1>What an XML parser does.</h1>
+         <p>An XML parser reads XML files and makes the data within accessible to applications and programing languages
+         To do this it loads it into a XML DOM, or Document Object Model. The DOM defines the properties and methods for accessing and editing XML.</p>
+         <h1>Validator Comparison</h1>
+         <table id="table" border="1">
+            <tr>
+               <td>Validator</td>
+               <td>Datatypes</td>
+               <td>Cardinality</td>
+               <td>Pros</td>
+               <td>Cons</td>
+            </tr>
+            <tr>
+               <td>DTD</td>
+               <td>CDATA</td>
+               <td>+ * ?</td>
+               <td>Supported in Visual Studio, Simple</td>
+               <td>Can't use namespaces</td>
+            </tr>
+            <tr>
+               <td>XML Schema</td>
+               <td>Lists Primitive Data Types, (things that are) Objects, or User defined</td>
+               <td>minOccurs, maxOccurs</td>
+               <td>Supported in Visual Studio, Many features</td>
+               <td>Complex</td>
+            </tr>
+            <tr>
+               <td>RelaxNG (compact)</td>
+               <td>Same as Schema - prefaced with xsd: or user defined, inside {}</td>
+               <td>same as DTD, placed after closing curly brace</td>
+               <td>>Simple and supports namespaces</td>
+               <td>Not supported in visual studio</td>
+            </tr>
+         </table>
+      </div>
+   </body>
+</html>

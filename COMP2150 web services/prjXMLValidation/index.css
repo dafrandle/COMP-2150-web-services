@@ -1,0 +1,32 @@
+﻿/*
+index.css
+Dustin Frandle - dafrandle@yahoo.com
+Project: XML Validation
+Written - 2/9/2017
+
+*/
+html{
+    background-color: #2b2f5d;
+    font-family: Arial, sans-serif
+}
+h1{
+    font-family: Rockwell, 'Times New Roman', Times, serif
+}
+body{
+    margin: 0px auto;
+    margin-top: 50px;
+    width: 73%;
+    padding: 20px;
+    border: double black;
+    background-color: white;
+}
+hr{
+    border: 1px solid black;
+}
+table{
+    border: 1px solid black;
+    margin: 0px auto;
+}
+td {
+    padding: 3px;
+}

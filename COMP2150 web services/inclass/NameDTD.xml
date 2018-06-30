@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE contact [
+  <!ELEMENT contact (name)>
+  <!ELEMENT name (first, middle, last, phone+, location, about)>
+  <!ELEMENT first (#PCDATA)>
+  <!ELEMENT middle (#PCDATA)>
+  <!ELEMENT last (#PCDATA)>
+  <!ELEMENT phone (#PCDATA)>
+    <!ATTLIST phone kind (Home | Work) "Work">
+  
+  <!ELEMENT location (address | gps)>
+  <!ELEMENT about (#PCDATA | dob)*>
+  
+  <!ELEMENT address (#PCDATA)>
+  <!ELEMENT gps (#PCDATA)>
+  <!ELEMENT dob (#PCDATA)>
+]>
+
+<contact>
+  <name>
+    <first>Bob</first>
+    <middle>S</middle>
+    <last>Potato</last>
+    <phone>284-907-4702</phone>
+    <location>
+      <address>Potato Farm</address>
+    </location>
+    <about>
+      <dob>1999-12-1</dob>
+    </about>
+  </name>
+</contact>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+collection.xml
+Dustin Frandle - dafrandle@yahoo.com
+Project: XML Validation
+Written - 1/24/2017
+-->
+<!DOCTYPE Games >
+<!--SYSTEM "collection.dtd"-->
+<!--xmlns="GameList"-->
+
+<Games >
+  <Platform PlatformName="Steam" Dev="Valve">
+    <Titles>
+      <Title GameName="Age Of Empires 3">
+        <Genre>Strategy</Genre>
+      </Title>
+      <Title GameName="Age Of Empires 2 HD">
+        <Genre>Strategy</Genre>
+      </Title>
+      <Title GameName="Company Of Heroes">
+        <Genre>Strategy</Genre>
+      </Title>
+      <Title GameName="Company Of Heroes 2">
+        <Genre>Strategy</Genre>
+      </Title>
+      <Title GameName="Crusader Kings 2">
+        <Genre>Strategy</Genre>
+      </Title>
+      <Title GameName="Empire: Total War">
+        <Genre>Strategy</Genre>
+      </Title>
+      <Title GameName="Medieval 2: Total War">
+        <Genre>Strategy</Genre>
+      </Title>
+      <Title GameName="Rome: Total War">
+        <Genre>Strategy</Genre>
+      </Title>
+      <Title GameName="Total War: Rome 2">
+        <Genre>Strategy</Genre>
+      </Title>
+      <Title GameName="XCOM: Enemy Unknown">
+        <Genre>Strategy</Genre>
+      </Title>
+      <Title GameName="Europa Universalis IV">
+        <Genre>Strategy</Genre>
+      </Title>
+      <Title GameName="Stellaris">
+        <Genre>Strategy</Genre>
+      </Title>
+      <Title GameName="Wargame Red Dragon">
+        <Genre>Strategy</Genre>
+      </Title>
+      <Title GameName="Star Wars: Galactic Battlegrounds Saga">
+        <Genre>Strategy</Genre>
+      </Title>
+      <Title GameName="Arma 3">
+        <Genre>Shooter</Genre>
+      </Title>
+      <Title GameName="Borderlands 2">
+        <Genre>Shooter</Genre>
+      </Title>
+      <Title GameName="Counter Strike: Global Offensive">
+        <Genre>Shooter</Genre>
+      </Title>
+      <Title GameName="Day Of Defeat Source">
+        <Genre>Shooter</Genre>
+      </Title>
+      <Title GameName="Fallout 4">
+        <Genre>Shooter</Genre>
+      </Title>
+      <Title GameName="FarCry 3">
+        <Genre>Shooter</Genre>
+      </Title>
+      <Title GameName="Grand Theft Auto V">
+        <Genre>Shooter</Genre>
+      </Title>
+      <Title GameName="Insurgency">
+        <Genre>Shooter</Genre>
+      </Title>
+      <Title GameName="Just Cause 2">
+        <Genre>Shooter</Genre>
+      </Title>
+      <Title GameName="Left 4 Dead 2">
+        <Genre>Shooter</Genre>
+      </Title>
+      <Title GameName="Sir You Are Being Hunted">
+        <Genre>Shooter</Genre>
+      </Title>
+      <Title GameName="Team Fortress 2">
+        <Genre>Shooter</Genre>
+      </Title>
+      <Title GameName="FTL: Faster Than Light">
+        <Genre>Other</Genre>
+      </Title>
+      <Title GameName="Gunpoint">
+        <Genre>Other</Genre>
+      </Title>
+      <Title GameName="Mark Of The Ninja">
+        <Genre>Other</Genre>
+      </Title>
+      <Title GameName="Papers Please">
+        <Genre>Other</Genre>
+      </Title>
+      <Title GameName="Sunless Sea">
+        <Genre>Other</Genre>
+      </Title>
+      <Title GameName="Cities Skylines">
+        <Genre>Other</Genre>
+      </Title>
+      <Title GameName="Human Resource Machine">
+        <Genre>Other</Genre>
+      </Title>
+      <Title GameName="Keep Talking And Nobody Explodes">
+        <Genre>Other</Genre>
+      </Title>
+      <Title GameName="Kerbal Space Program">
+        <Genre>Other</Genre>
+      </Title>
+      <Title GameName="Mini Metro">
+        <Genre>Other</Genre>
+      </Title>
+      <Title GameName="Prison Architect">
+        <Genre>Other</Genre>
+      </Title>
+      <Title GameName="Space Pirates And Zombies">
+        <Genre>Other</Genre>
+      </Title>
+      <Title GameName="Terraria">
+        <Genre>Other</Genre>
+      </Title>
+    </Titles>
+  </Platform>
+  <Platform PlatformName="Origin" Dev="Electronic Arts">
+    <Titles>
+      <Title GameName="Command And Conquer Red Alert 2">
+        <Genre>Strategy</Genre>
+      </Title>
+      <Title GameName="Plants Vs Zombies">
+        <Genre>Strategy</Genre>
+      </Title>
+      <Title GameName="Battlefield 3">
+        <Genre>Shooter</Genre>
+      </Title>
+      <Title GameName="Battlefield 4">
+        <Genre>Shooter</Genre>
+      </Title>
+      <Title GameName="Titanfall 2">
+        <Genre>Shooter</Genre>
+      </Title>
+      <Title GameName="MassEffect 2">
+        <Genre>Shooter</Genre>
+      </Title>
+      <Title GameName="DeadSpace">
+        <Genre>Shooter</Genre>
+      </Title>
+      <Title GameName="Bejeweled 3">
+        <Genre>Other</Genre>
+      </Title>
+      <Title GameName="Peggle Deluxe">
+        <Genre>Other</Genre>
+      </Title>
+      <Title GameName="Zumas Revenge">
+        <Genre>Other</Genre>
+      </Title>
+    </Titles>
+  </Platform>
+</Games> 

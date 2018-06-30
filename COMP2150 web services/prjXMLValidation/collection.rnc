@@ -1,0 +1,20 @@
+#collection.rnc
+#Dustin Frandle - dafrandle@yahoo.com
+#Project: XML Validation
+#Written - 2/7/2017
+
+gGenre = element Genre {text}
+
+start =
+   element Games {
+      element Platform {
+         attribute PlatformName {xsd:string},
+		 attribute Dev {xsd:string}?,
+         element Titles{
+            element Title{
+               attribute GameName {xsd:string},
+               gGenre
+            }+
+         }
+      }+
+   }
